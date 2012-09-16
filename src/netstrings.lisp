@@ -8,8 +8,8 @@
 
 (in-package #:netstrings)
 
-(defconstant +colon+ (char-code #\colon))
-(defconstant +comma+ (char-code #\comma))
+(defconstant +colon+ (char-code #\:))
+(defconstant +comma+ (char-code #\,))
 
 (defun digitp (byte) 
   "Checks whether BYTE represents a decimal digit in ASCII."
